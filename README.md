@@ -49,7 +49,7 @@ If you find this code useful, please consider citing:
 
 ## Acknowledgement
 
-Our implementation is based on [OrthogonalDet](https://github.com/feifeiobama/OrthogonalDet) which uses [Detectron2](https://github.com/facebookresearch/detectron2) and [Sparse R-CNN](https://github.com/PeizeSun/SparseR-CNN).
+Our implementation is based on [OrthogonalDet](https://github.com/feifeiobama/OrthogonalDet) which uses [Detectron2](https://github.com/facebookresearch/detectron2) and [RandBox](https://github.com/scuwyh2000/RandBox).
 
 
 
