@@ -1,5 +1,9 @@
 # Prompt_Distill_OWOD
 
+## Datasets
+COCO数据集：https://cocodataset.org/#download
+Pascal VOC数据集：http://host.robots.ox.ac.uk/pascal/VOC/
+
 ## Requirements
 - Linux or macOS with Python ≥ 3.8.
 - Install [PyTorch ≥ 1.9.0, torchvision](https://pytorch.org/#install),
