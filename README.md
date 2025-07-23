@@ -40,12 +40,7 @@ The following results were obtained with four NVIDIA 2080 Ti GPUs, using the che
   
   ![iod](assets/iod.jpg)
 
-## Citation
 
-If you find this code useful, please consider citing:
-```bibtex
-
-```
 
 ## Acknowledgement
 
