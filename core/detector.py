@@ -7,7 +7,7 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from core.wtconv import WTConv2d
+#from core.wtconv import WTConv2d
 from detectron2.layers import batched_nms
 from detectron2.modeling import META_ARCH_REGISTRY, build_backbone, detector_postprocess
 
@@ -61,7 +61,7 @@ class RandBox(nn.Module):
         super().__init__()
 
         self.device = torch.device(cfg.MODEL.DEVICE)
-        self.wavelet_conv = WTConv2d(in_channels=3, out_channels=3)
+        #self.wavelet_conv = WTConv2d(in_channels=3, out_channels=3)
 
         self.in_features = cfg.MODEL.ROI_HEADS.IN_FEATURES
         self.num_classes = cfg.MODEL.NUM_CLASSES
