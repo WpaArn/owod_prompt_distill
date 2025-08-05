@@ -7,7 +7,7 @@ from torch import nn, Tensor
 import torch.nn.functional as F
 from einops import rearrange
 
-from core.MLLABlock import MLLABlock
+#from core.MLLABlock import MLLABlock
 from core.aux_branch import AuxFastRCNNOutputLayers
 from detectron2.modeling.poolers import ROIPooler
 from detectron2.structures import Boxes
